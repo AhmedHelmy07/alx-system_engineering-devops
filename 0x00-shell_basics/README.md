@@ -18,3 +18,4 @@ this project contain the following:
 16. 101-clean_emacs which deletes all files in the current working directory that end with the character ~.
 17. 102-tree which creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 18. 103-commas which lists all the files and directories of the current directory, separated by commas (,).
+19. school.mgc which can be used with the command file to detect School data files.
