@@ -11,3 +11,4 @@ this project contain the following:
 9. 9-firstdirdeletion which Delete the directory my_first_directory that is in the /tmp directory.
 10. 10-back which changes the working directory to the previous one.
 11. 11-lists which lists all files in the current directory and the parent of the working directory and the /boot directory, in long format.
+12. 12-file_type which prints the type of the file named iamafile.
