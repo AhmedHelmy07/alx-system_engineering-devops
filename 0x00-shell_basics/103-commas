@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "./, ../, "; ls -d * | grep '^[A-Z]' | tr '\n' ', ' | sed 's/,$/\n/'
+printf "./, ../, "; ls -d [A-Z]* [0-9]* [a-z]* 2>/dev/null | tr '\n' ', ' | sed 's/,$/\n/'
