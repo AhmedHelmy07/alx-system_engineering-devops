@@ -12,8 +12,9 @@ this project contain the following:
 10. 10-back which changes the working directory to the previous one.
 11. 11-lists which lists all files in the current directory and the parent of the working directory and the /boot directory, in long format.
 12. 12-file_type which prints the type of the file named iamafile.
-14. 13-symbolic_link which Create a symbolic link to /bin/ls, named ls.
-15. 14-copy_html which copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-16. 100-lets_move which moves all files beginning with an uppercase letter to the directory /tmp/u.
-17. 101-clean_emacs which deletes all files in the current working directory that end with the character ~.
-18. 102-tree which creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+13. 13-symbolic_link which Create a symbolic link to /bin/ls, named ls.
+14. 14-copy_html which copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+15. 100-lets_move which moves all files beginning with an uppercase letter to the directory /tmp/u.
+16. 101-clean_emacs which deletes all files in the current working directory that end with the character ~.
+17. 102-tree which creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+18. 103-commas which lists all the files and directories of the current directory, separated by commas (,).
