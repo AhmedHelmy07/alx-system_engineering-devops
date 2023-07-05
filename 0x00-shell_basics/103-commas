@@ -1,3 +1,2 @@
 #!/bin/bash
 printf "./, ../, " | tr -d '\n'; find . -maxdepth 1 \( -name ".[^.]*" -o -type f \) -print0 | LC_ALL=C sort -z -d -k1.1,1.1 -k1.2n,1.2 | tr '\0' ',' | sed 's/,$/\n/'
-
