@@ -3,3 +3,4 @@ this project contain the following:
 1. 1-listit file which Display the contents list of your current directory.
 2. 2-bring_me_home which changes the working directory to the user’s home directory.
 3. 3-listfiles which Display current directory contents in a long format.
+4. 4-listmorefiles which Display current directory contents, including hidden files, using long format.
