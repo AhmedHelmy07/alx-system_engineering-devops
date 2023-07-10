@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(cat /etc/passwd | cut -d: -f1 | sort)" | xargs -I{} echo "{}: $(cat /etc/passwd | grep "^{}:" | cut -d: -f6)"
