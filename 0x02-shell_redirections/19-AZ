@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$input" | sed 'y/Ac/Ze/'
+read -r input; echo "$input" | tr 'Ac' 'Ze'
