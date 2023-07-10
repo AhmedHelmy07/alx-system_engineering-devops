@@ -1,3 +1,2 @@
 #!/bin/bash
-read -p "Enter input: " input
-echo "${input//A/Z}" | sed 's/c/e/g'
+echo "$input" | sed 'y/Ac/Ze/'
