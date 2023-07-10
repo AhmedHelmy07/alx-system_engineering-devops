@@ -1,0 +1,2 @@
+#!/bin/bash
+shopt -s globstar; count=**/; echo "Number of directories and sub-directories: ${#count[@]}"
