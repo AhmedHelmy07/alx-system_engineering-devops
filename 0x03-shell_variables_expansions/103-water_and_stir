@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(echo "$WATER" | base64 --decode) + $(echo "$STIR" | base64 --decode) | base64"
+echo $((WATER + STIR))
