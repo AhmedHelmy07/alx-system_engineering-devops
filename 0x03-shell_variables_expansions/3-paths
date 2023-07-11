@@ -1,3 +1,2 @@
 #!/bin/bash
-IFS=":" read -ra directories <<< "$PATH"
-printf '%s\n' "${#directories[@]}"
+echo $(echo "$PATH" | wc -w)
